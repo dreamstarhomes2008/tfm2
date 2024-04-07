@@ -1243,6 +1243,28 @@ section {
   margin: 0 2px;
 }
 
+#blogs{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+
+
+}
+.card {
+
+  margin: 10px ;
+}
+
+.innerdivblogs{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
 @media (max-width: 992px) {
   .team .member {
     margin-bottom: 100px;
